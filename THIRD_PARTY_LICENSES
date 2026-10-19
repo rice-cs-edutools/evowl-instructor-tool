@@ -1,0 +1,81 @@
+THIRD-PARTY SOFTWARE LICENSES
+=============================
+
+EvOwl is licensed under the GNU General Public License, version 3 (see
+LICENSE). It depends on the third-party libraries listed below, each of
+which is distributed under its own license.
+
+This list covers the Maven dependencies declared in pom.xml, together with
+their transitive dependencies, in the compile and runtime scopes (all of
+which are bundled into the jar-with-dependencies). Test-scope dependencies
+are not distributed and are not listed. The Go and TypeScript helper
+programs under src/main/java/edu/rice/evowl/ list their own dependencies in
+the THIRD_PARTY_LICENSES files next to them.
+
+The full text of each license is in the licenses/ directory. Where a
+library is offered under a choice of licenses, it is listed under the
+license EvOwl uses it under, and the alternatives are noted.
+
+
+Apache License, Version 2.0
+licenses/Apache-2.0.txt
+---------------------------------------------------------------------------
+
+  Apache Commons CSV             org.apache.commons:commons-csv:1.10.0
+  Apache Commons Math            org.apache.commons:commons-math3:3.4.1
+  Apache Log4j                   org.apache.logging.log4j:log4j-api:2.20.0
+                                 org.apache.logging.log4j:log4j-core:2.20.0
+  Caffeine                       com.github.ben-manes.caffeine:caffeine:2.9.3
+  Error Prone Annotations        com.google.errorprone:error_prone_annotations:2.10.0
+  Jackson                        com.fasterxml.jackson.core:jackson-annotations:2.12.3
+                                 com.fasterxml.jackson.core:jackson-core:2.12.3
+                                 com.fasterxml.jackson.core:jackson-databind:2.12.3
+  Java Native Access (JNA)       net.java.dev.jna:jna:5.13.0
+                                 net.java.dev.jna:jna-platform:5.13.0
+                                 (also offered under LGPL-2.1-or-later)
+  JCL over SLF4J                 org.slf4j:jcl-over-slf4j:2.0.7
+  JSON.simple                    com.googlecode.json-simple:json-simple:1.1.1
+  MongoDB Java Driver            org.mongodb:bson:4.9.1
+                                 org.mongodb:bson-record-codec:4.9.1
+                                 org.mongodb:mongodb-driver-core:4.9.1
+                                 org.mongodb:mongodb-driver-sync:4.9.1
+
+
+MIT License
+licenses/MIT.txt (includes each component's copyright notice)
+---------------------------------------------------------------------------
+
+  Checker Framework Qualifiers   org.checkerframework:checker-qual:3.32.0
+  SLF4J API                      org.slf4j:slf4j-api:2.0.7
+  Waffle                         com.github.waffle:waffle-jna:3.3.0
+
+
+GNU Lesser General Public License, version 2.1
+licenses/LGPL-2.1.txt
+---------------------------------------------------------------------------
+
+  MariaDB Connector/J            org.mariadb.jdbc:mariadb-java-client:3.3.3
+
+
+GNU General Public License, version 2, with the Classpath Exception
+licenses/GPL-2.0-with-classpath-exception.txt
+---------------------------------------------------------------------------
+
+  JavaBeans Activation Framework com.sun.activation:javax.activation:1.2.0
+                                 javax.activation:javax.activation-api:1.2.0
+                                 (also offered under CDDL-1.1)
+  JAXB API                       javax.xml.bind:jaxb-api:2.3.1
+                                 (also offered under CDDL-1.1)
+
+
+Source Code
+---------------------------------------------------------------------------
+
+The LGPL and GPL components above are used unmodified. Their complete
+source code is published on Maven Central alongside each binary, as the
+artifact with the "-sources" classifier:
+
+  https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.3.3/mariadb-java-client-3.3.3-sources.jar
+  https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0-sources.jar
+  https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+  https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar

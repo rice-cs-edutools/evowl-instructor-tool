@@ -1,0 +1,54 @@
+{
+  "Package": "1",
+  "PackageComment": "",
+  "Imports": {
+    "1": {
+      "name": "1",
+      "startLine": 1,
+      "startColumn": 1,
+      "endLine": 1,
+      "endColumn": 1,
+      "associatedComment": ""
+    }
+  },
+  "Functions": {
+    "1": {
+      "name": "1",
+      "startLine": 1,
+      "startColumn": 1,
+      "endLine": 1,
+      "endColumn": 1,
+      "associatedComment": ""
+    }
+  },
+  "Types": {
+    "1": {
+      "name": "1",
+      "startLine": 1,
+      "startColumn": 1,
+      "endLine": 1,
+      "endColumn": 1,
+      "associatedComment": ""
+    }
+  },
+  "Variables": {
+    "1": {
+      "name": "1",
+      "startLine": 1,
+      "startColumn": 1,
+      "endLine": 1,
+      "endColumn": 1,
+      "associatedComment": ""
+    }
+  },
+  "LineMap": {
+    "1": {
+      "name": "1",
+      "startLine": 1,
+      "startColumn": 1,
+      "endLine": 1,
+      "endColumn": 1,
+      "associatedComment": ""
+    }
+  }
+}

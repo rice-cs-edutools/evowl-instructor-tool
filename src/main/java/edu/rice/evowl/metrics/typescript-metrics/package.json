@@ -1,0 +1,16 @@
+{
+    "name": "typescript-metrics",
+    "version": "1.0.0",
+    "main": "main.ts",
+    "type": "module",
+    "scripts": {
+        "start": "npx ts-node -T main.ts"
+    },
+    "dependencies": {
+        "@types/node": "^24.7.2",
+        "@typescript-eslint/eslint-plugin": "^8.46.3",
+        "@typescript-eslint/parser": "^8.46.3",
+        "eslint": "^9.39.1",
+        "typescript": "^5.9.3"
+    }
+}

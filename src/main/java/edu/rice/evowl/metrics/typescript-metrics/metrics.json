@@ -1,0 +1,1275 @@
+{
+  "src/components.ts": {
+    "Files": [
+      "src/components.ts"
+    ],
+    "FileCount": 1,
+    "LineCount": 207,
+    "PublicFuncs": [
+      {
+        "File": "src/components.ts",
+        "Name": "attributeChangedCallback",
+        "Offset": 314,
+        "StartLine": 15,
+        "StartCol": 3,
+        "EndLine": 15,
+        "EndCol": 27
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "connectedCallback",
+        "Offset": 1162,
+        "StartLine": 48,
+        "StartCol": 3,
+        "EndLine": 48,
+        "EndCol": 20
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "disconnectedCallback",
+        "Offset": 1223,
+        "StartLine": 52,
+        "StartCol": 3,
+        "EndLine": 52,
+        "EndCol": 23
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "connectedCallback",
+        "Offset": 1807,
+        "StartLine": 79,
+        "StartCol": 3,
+        "EndLine": 79,
+        "EndCol": 20
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "disconnectedCallback",
+        "Offset": 1868,
+        "StartLine": 83,
+        "StartCol": 3,
+        "EndLine": 83,
+        "EndCol": 23
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "attributeChangedCallback",
+        "Offset": 2033,
+        "StartLine": 90,
+        "StartCol": 3,
+        "EndLine": 90,
+        "EndCol": 27
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "connectedCallback",
+        "Offset": 3113,
+        "StartLine": 137,
+        "StartCol": 3,
+        "EndLine": 137,
+        "EndCol": 20
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "attributeChangedCallback",
+        "Offset": 3174,
+        "StartLine": 141,
+        "StartCol": 3,
+        "EndLine": 141,
+        "EndCol": 27
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "defineCustomComponents",
+        "Offset": 4747,
+        "StartLine": 200,
+        "StartCol": 17,
+        "EndLine": 200,
+        "EndCol": 39
+      }
+    ],
+    "PublicStructs": [],
+    "PublicStructFields": [],
+    "PrivateStructFields": [],
+    "ErrorChecks": [],
+    "MisnamedErrorChecks": [],
+    "MissingErrorChecks": [],
+    "DocFuncs": [
+      {
+        "File": "src/components.ts",
+        "Name": "defineCustomComponents",
+        "Offset": 4747,
+        "StartLine": 200,
+        "StartCol": 17,
+        "EndLine": 200,
+        "EndCol": 39
+      }
+    ],
+    "DocStructs": [
+      {
+        "File": "src/components.ts",
+        "Name": "WorkspaceName",
+        "Offset": 75,
+        "StartLine": 4,
+        "StartCol": 7,
+        "EndLine": 4,
+        "EndCol": 20
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "ChannelName",
+        "Offset": 1571,
+        "StartLine": 67,
+        "StartCol": 7,
+        "EndLine": 67,
+        "EndCol": 18
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "PostComponent",
+        "Offset": 2936,
+        "StartLine": 128,
+        "StartCol": 7,
+        "EndLine": 128,
+        "EndCol": 20
+      }
+    ],
+    "NodocFuncs": [
+      {
+        "File": "src/components.ts",
+        "Name": "attributeChangedCallback",
+        "Offset": 314,
+        "StartLine": 15,
+        "StartCol": 3,
+        "EndLine": 15,
+        "EndCol": 27
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "updateContent",
+        "Offset": 571,
+        "StartLine": 26,
+        "StartCol": 11,
+        "EndLine": 26,
+        "EndCol": 24
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "connectedCallback",
+        "Offset": 1162,
+        "StartLine": 48,
+        "StartCol": 3,
+        "EndLine": 48,
+        "EndCol": 20
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "disconnectedCallback",
+        "Offset": 1223,
+        "StartLine": 52,
+        "StartCol": 3,
+        "EndLine": 52,
+        "EndCol": 23
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "escapeHtml",
+        "Offset": 1396,
+        "StartLine": 59,
+        "StartCol": 11,
+        "EndLine": 59,
+        "EndCol": 21
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "connectedCallback",
+        "Offset": 1807,
+        "StartLine": 79,
+        "StartCol": 3,
+        "EndLine": 79,
+        "EndCol": 20
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "disconnectedCallback",
+        "Offset": 1868,
+        "StartLine": 83,
+        "StartCol": 3,
+        "EndLine": 83,
+        "EndCol": 23
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "attributeChangedCallback",
+        "Offset": 2033,
+        "StartLine": 90,
+        "StartCol": 3,
+        "EndLine": 90,
+        "EndCol": 27
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "updateContent",
+        "Offset": 2248,
+        "StartLine": 100,
+        "StartCol": 11,
+        "EndLine": 100,
+        "EndCol": 24
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "escapeHtml",
+        "Offset": 2769,
+        "StartLine": 120,
+        "StartCol": 11,
+        "EndLine": 120,
+        "EndCol": 21
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "connectedCallback",
+        "Offset": 3113,
+        "StartLine": 137,
+        "StartCol": 3,
+        "EndLine": 137,
+        "EndCol": 20
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "attributeChangedCallback",
+        "Offset": 3174,
+        "StartLine": 141,
+        "StartCol": 3,
+        "EndLine": 141,
+        "EndCol": 27
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "updateContent",
+        "Offset": 3497,
+        "StartLine": 157,
+        "StartCol": 11,
+        "EndLine": 157,
+        "EndCol": 24
+      },
+      {
+        "File": "src/components.ts",
+        "Name": "escapeHtml",
+        "Offset": 4561,
+        "StartLine": 192,
+        "StartCol": 11,
+        "EndLine": 192,
+        "EndCol": 21
+      }
+    ],
+    "NodocStructs": [],
+    "ExternalImportUses": [],
+    "ModuleImportUses": []
+  },
+  "src/controller.ts": {
+    "Files": [
+      "src/controller.ts"
+    ],
+    "FileCount": 1,
+    "LineCount": 154,
+    "PublicFuncs": [],
+    "PublicStructs": [
+      {
+        "File": "src/controller.ts",
+        "Name": "Controller",
+        "Offset": 527,
+        "StartLine": 21,
+        "StartCol": 14,
+        "EndLine": 21,
+        "EndCol": 24
+      }
+    ],
+    "PublicStructFields": [],
+    "PrivateStructFields": [],
+    "ErrorChecks": [
+      {
+        "File": "src/controller.ts",
+        "Offset": 0,
+        "StartLine": 66,
+        "StartCol": 7,
+        "EndLine": 69,
+        "EndCol": 6
+      },
+      {
+        "File": "src/controller.ts",
+        "Offset": 0,
+        "StartLine": 85,
+        "StartCol": 7,
+        "EndLine": 87,
+        "EndCol": 6
+      },
+      {
+        "File": "src/controller.ts",
+        "Offset": 0,
+        "StartLine": 120,
+        "StartCol": 7,
+        "EndLine": 125,
+        "EndCol": 6
+      },
+      {
+        "File": "src/controller.ts",
+        "Offset": 0,
+        "StartLine": 147,
+        "StartCol": 7,
+        "EndLine": 149,
+        "EndCol": 6
+      }
+    ],
+    "MisnamedErrorChecks": [],
+    "MissingErrorChecks": [
+      {
+        "File": "src/controller.ts",
+        "Offset": 0,
+        "StartLine": 84,
+        "StartCol": 7,
+        "EndLine": 84,
+        "EndCol": 27
+      }
+    ],
+    "DocFuncs": [
+      {
+        "File": "src/controller.ts",
+        "Name": "lastSegment",
+        "Offset": 340,
+        "StartLine": 15,
+        "StartCol": 10,
+        "EndLine": 15,
+        "EndCol": 21
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "loginHandler",
+        "Offset": 1537,
+        "StartLine": 55,
+        "StartCol": 17,
+        "EndLine": 55,
+        "EndCol": 29
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "logoutHandler",
+        "Offset": 2187,
+        "StartLine": 75,
+        "StartCol": 17,
+        "EndLine": 75,
+        "EndCol": 30
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "selectWorkspaceHandler",
+        "Offset": 2591,
+        "StartLine": 93,
+        "StartCol": 17,
+        "EndLine": 93,
+        "EndCol": 39
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "selectChannelHandler",
+        "Offset": 3828,
+        "StartLine": 131,
+        "StartCol": 17,
+        "EndLine": 131,
+        "EndCol": 37
+      }
+    ],
+    "DocStructs": [
+      {
+        "File": "src/controller.ts",
+        "Name": "Controller",
+        "Offset": 527,
+        "StartLine": 21,
+        "StartCol": 14,
+        "EndLine": 21,
+        "EndCol": 24
+      }
+    ],
+    "NodocFuncs": [],
+    "NodocStructs": [],
+    "ExternalImportUses": [],
+    "ModuleImportUses": [
+      {
+        "File": "src/controller.ts",
+        "Name": "src/model.ts",
+        "Offset": 9,
+        "StartLine": 1,
+        "StartCol": 10,
+        "EndLine": 1,
+        "EndCol": 15
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 84,
+        "StartLine": 4,
+        "StartCol": 3,
+        "EndLine": 4,
+        "EndCol": 17
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 102,
+        "StartLine": 5,
+        "StartCol": 3,
+        "EndLine": 5,
+        "EndCol": 18
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 121,
+        "StartLine": 6,
+        "StartCol": 3,
+        "EndLine": 6,
+        "EndCol": 25
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 147,
+        "StartLine": 7,
+        "StartCol": 3,
+        "EndLine": 7,
+        "EndCol": 27
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 175,
+        "StartLine": 8,
+        "StartCol": 3,
+        "EndLine": 8,
+        "EndCol": 7
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 183,
+        "StartLine": 9,
+        "StartCol": 3,
+        "EndLine": 9,
+        "EndCol": 18
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 202,
+        "StartLine": 10,
+        "StartCol": 3,
+        "EndLine": 10,
+        "EndCol": 26
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 229,
+        "StartLine": 11,
+        "StartCol": 3,
+        "EndLine": 11,
+        "EndCol": 28
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 688,
+        "StartLine": 27,
+        "StartCol": 5,
+        "EndLine": 27,
+        "EndCol": 29
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/model.ts",
+        "Offset": 1737,
+        "StartLine": 61,
+        "StartCol": 13,
+        "EndLine": 61,
+        "EndCol": 36
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 1761,
+        "StartLine": 61,
+        "StartCol": 37,
+        "EndLine": 61,
+        "EndCol": 54
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/model.ts",
+        "Offset": 1812,
+        "StartLine": 62,
+        "StartCol": 32,
+        "EndLine": 62,
+        "EndCol": 56
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 1847,
+        "StartLine": 64,
+        "StartCol": 7,
+        "EndLine": 64,
+        "EndCol": 24
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 1865,
+        "StartLine": 64,
+        "StartCol": 25,
+        "EndLine": 64,
+        "EndCol": 42
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 1891,
+        "StartLine": 65,
+        "StartCol": 7,
+        "EndLine": 65,
+        "EndCol": 31
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 2038,
+        "StartLine": 68,
+        "StartCol": 7,
+        "EndLine": 68,
+        "EndCol": 31
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 2337,
+        "StartLine": 82,
+        "StartCol": 7,
+        "EndLine": 82,
+        "EndCol": 31
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/model.ts",
+        "Offset": 2372,
+        "StartLine": 84,
+        "StartCol": 7,
+        "EndLine": 84,
+        "EndCol": 24
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 2694,
+        "StartLine": 95,
+        "StartCol": 9,
+        "EndLine": 95,
+        "EndCol": 27
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/model.ts",
+        "Offset": 2809,
+        "StartLine": 100,
+        "StartCol": 30,
+        "EndLine": 100,
+        "EndCol": 52
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 2832,
+        "StartLine": 100,
+        "StartCol": 53,
+        "EndLine": 100,
+        "EndCol": 71
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 2945,
+        "StartLine": 102,
+        "StartCol": 24,
+        "EndLine": 102,
+        "EndCol": 42
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/model.ts",
+        "Offset": 3087,
+        "StartLine": 106,
+        "StartCol": 29,
+        "EndLine": 106,
+        "EndCol": 48
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 3360,
+        "StartLine": 115,
+        "StartCol": 9,
+        "EndLine": 115,
+        "EndCol": 32
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 3384,
+        "StartLine": 115,
+        "StartCol": 33,
+        "EndLine": 115,
+        "EndCol": 51
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 3427,
+        "StartLine": 116,
+        "StartCol": 9,
+        "EndLine": 116,
+        "EndCol": 30
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 3501,
+        "StartLine": 118,
+        "StartCol": 9,
+        "EndLine": 118,
+        "EndCol": 32
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 3525,
+        "StartLine": 118,
+        "StartCol": 33,
+        "EndLine": 118,
+        "EndCol": 51
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 3654,
+        "StartLine": 122,
+        "StartCol": 20,
+        "EndLine": 122,
+        "EndCol": 38
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 3954,
+        "StartLine": 133,
+        "StartCol": 36,
+        "EndLine": 133,
+        "EndCol": 52
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/model.ts",
+        "Offset": 4062,
+        "StartLine": 138,
+        "StartCol": 27,
+        "EndLine": 138,
+        "EndCol": 46
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 4098,
+        "StartLine": 138,
+        "StartCol": 63,
+        "EndLine": 138,
+        "EndCol": 79
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 4123,
+        "StartLine": 139,
+        "StartCol": 7,
+        "EndLine": 139,
+        "EndCol": 28
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 4154,
+        "StartLine": 140,
+        "StartCol": 9,
+        "EndLine": 140,
+        "EndCol": 25
+      },
+      {
+        "File": "src/controller.ts",
+        "Name": "src/view.ts",
+        "Offset": 4418,
+        "StartLine": 148,
+        "StartCol": 56,
+        "EndLine": 148,
+        "EndCol": 72
+      }
+    ]
+  },
+  "src/main.ts": {
+    "Files": [
+      "src/main.ts"
+    ],
+    "FileCount": 1,
+    "LineCount": 36,
+    "PublicFuncs": [],
+    "PublicStructs": [],
+    "PublicStructFields": [],
+    "PrivateStructFields": [],
+    "ErrorChecks": [],
+    "MisnamedErrorChecks": [],
+    "MissingErrorChecks": [],
+    "DocFuncs": [
+      {
+        "File": "src/main.ts",
+        "Name": "main",
+        "Offset": 411,
+        "StartLine": 20,
+        "StartCol": 10,
+        "EndLine": 20,
+        "EndCol": 14
+      }
+    ],
+    "DocStructs": [],
+    "NodocFuncs": [],
+    "NodocStructs": [],
+    "ExternalImportUses": [],
+    "ModuleImportUses": [
+      {
+        "File": "src/main.ts",
+        "Name": "src/components.ts",
+        "Offset": 9,
+        "StartLine": 1,
+        "StartCol": 10,
+        "EndLine": 1,
+        "EndCol": 32
+      },
+      {
+        "File": "src/main.ts",
+        "Name": "src/controller.ts",
+        "Offset": 64,
+        "StartLine": 2,
+        "StartCol": 10,
+        "EndLine": 2,
+        "EndCol": 20
+      }
+    ]
+  },
+  "src/model.ts": {
+    "Files": [
+      "src/model.ts"
+    ],
+    "FileCount": 1,
+    "LineCount": 260,
+    "PublicFuncs": [
+      {
+        "File": "src/model.ts",
+        "Name": "attemptLogin",
+        "Offset": 4995,
+        "StartLine": 175,
+        "StartCol": 16,
+        "EndLine": 175,
+        "EndCol": 28
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "logout",
+        "Offset": 5645,
+        "StartLine": 195,
+        "StartCol": 16,
+        "EndLine": 195,
+        "EndCol": 22
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "getWorkspaces",
+        "Offset": 6066,
+        "StartLine": 212,
+        "StartCol": 16,
+        "EndLine": 212,
+        "EndCol": 29
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "getChannels",
+        "Offset": 6546,
+        "StartLine": 227,
+        "StartCol": 16,
+        "EndLine": 227,
+        "EndCol": 27
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "getPosts",
+        "Offset": 7093,
+        "StartLine": 244,
+        "StartCol": 16,
+        "EndLine": 244,
+        "EndCol": 24
+      }
+    ],
+    "PublicStructs": [
+      {
+        "File": "src/model.ts",
+        "Name": "Model",
+        "Offset": 3105,
+        "StartLine": 122,
+        "StartCol": 14,
+        "EndLine": 122,
+        "EndCol": 19
+      }
+    ],
+    "PublicStructFields": [],
+    "PrivateStructFields": [],
+    "ErrorChecks": [
+      {
+        "File": "src/model.ts",
+        "Offset": 0,
+        "StartLine": 167,
+        "StartCol": 7,
+        "EndLine": 169,
+        "EndCol": 6
+      },
+      {
+        "File": "src/model.ts",
+        "Offset": 0,
+        "StartLine": 187,
+        "StartCol": 7,
+        "EndLine": 189,
+        "EndCol": 6
+      },
+      {
+        "File": "src/model.ts",
+        "Offset": 0,
+        "StartLine": 206,
+        "StartCol": 7,
+        "EndLine": 208,
+        "EndCol": 6
+      },
+      {
+        "File": "src/model.ts",
+        "Offset": 0,
+        "StartLine": 221,
+        "StartCol": 7,
+        "EndLine": 223,
+        "EndCol": 6
+      },
+      {
+        "File": "src/model.ts",
+        "Offset": 0,
+        "StartLine": 238,
+        "StartCol": 7,
+        "EndLine": 240,
+        "EndCol": 6
+      },
+      {
+        "File": "src/model.ts",
+        "Offset": 0,
+        "StartLine": 255,
+        "StartCol": 7,
+        "EndLine": 257,
+        "EndCol": 6
+      }
+    ],
+    "MisnamedErrorChecks": [],
+    "MissingErrorChecks": [],
+    "DocFuncs": [
+      {
+        "File": "src/model.ts",
+        "Name": "makeOwldbGetRequest",
+        "Offset": 4315,
+        "StartLine": 155,
+        "StartCol": 17,
+        "EndLine": 155,
+        "EndCol": 36
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "attemptLogin",
+        "Offset": 4995,
+        "StartLine": 175,
+        "StartCol": 16,
+        "EndLine": 175,
+        "EndCol": 28
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "logout",
+        "Offset": 5645,
+        "StartLine": 195,
+        "StartCol": 16,
+        "EndLine": 195,
+        "EndCol": 22
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "getWorkspaces",
+        "Offset": 6066,
+        "StartLine": 212,
+        "StartCol": 16,
+        "EndLine": 212,
+        "EndCol": 29
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "getChannels",
+        "Offset": 6546,
+        "StartLine": 227,
+        "StartCol": 16,
+        "EndLine": 227,
+        "EndCol": 27
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "getPosts",
+        "Offset": 7093,
+        "StartLine": 244,
+        "StartCol": 16,
+        "EndLine": 244,
+        "EndCol": 24
+      }
+    ],
+    "DocStructs": [
+      {
+        "File": "src/model.ts",
+        "Name": "Workspace",
+        "Offset": 869,
+        "StartLine": 35,
+        "StartCol": 6,
+        "EndLine": 35,
+        "EndCol": 15
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "Channel",
+        "Offset": 1674,
+        "StartLine": 66,
+        "StartCol": 6,
+        "EndLine": 66,
+        "EndCol": 13
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "Post",
+        "Offset": 2838,
+        "StartLine": 112,
+        "StartCol": 6,
+        "EndLine": 112,
+        "EndCol": 10
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "Model",
+        "Offset": 3105,
+        "StartLine": 122,
+        "StartCol": 14,
+        "EndLine": 122,
+        "EndCol": 19
+      }
+    ],
+    "NodocFuncs": [],
+    "NodocStructs": [
+      {
+        "File": "src/model.ts",
+        "Name": "WorkspaceArray",
+        "Offset": 922,
+        "StartLine": 36,
+        "StartCol": 6,
+        "EndLine": 36,
+        "EndCol": 20
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "ChannelArray",
+        "Offset": 1723,
+        "StartLine": 67,
+        "StartCol": 6,
+        "EndLine": 67,
+        "EndCol": 18
+      },
+      {
+        "File": "src/model.ts",
+        "Name": "PostArray",
+        "Offset": 2881,
+        "StartLine": 113,
+        "StartCol": 6,
+        "EndLine": 113,
+        "EndCol": 15
+      }
+    ],
+    "ExternalImportUses": [],
+    "ModuleImportUses": []
+  },
+  "src/view.ts": {
+    "Files": [
+      "src/view.ts"
+    ],
+    "FileCount": 1,
+    "LineCount": 206,
+    "PublicFuncs": [
+      {
+        "File": "src/view.ts",
+        "Name": "showLoginModal",
+        "Offset": 2598,
+        "StartLine": 74,
+        "StartCol": 10,
+        "EndLine": 74,
+        "EndCol": 24
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "onLogin",
+        "Offset": 3584,
+        "StartLine": 110,
+        "StartCol": 10,
+        "EndLine": 110,
+        "EndCol": 17
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "showWorkspaces",
+        "Offset": 4013,
+        "StartLine": 123,
+        "StartCol": 10,
+        "EndLine": 123,
+        "EndCol": 24
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "showWorkspace",
+        "Offset": 4813,
+        "StartLine": 147,
+        "StartCol": 10,
+        "EndLine": 147,
+        "EndCol": 23
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "showChannel",
+        "Offset": 5887,
+        "StartLine": 182,
+        "StartCol": 10,
+        "EndLine": 182,
+        "EndCol": 21
+      }
+    ],
+    "PublicStructs": [
+      {
+        "File": "src/view.ts",
+        "Name": "LoginEvent",
+        "Offset": 155,
+        "StartLine": 6,
+        "StartCol": 13,
+        "EndLine": 6,
+        "EndCol": 23
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "SelectWorkspaceEvent",
+        "Offset": 423,
+        "StartLine": 14,
+        "StartCol": 13,
+        "EndLine": 14,
+        "EndCol": 33
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "SelectChannelEvent",
+        "Offset": 619,
+        "StartLine": 19,
+        "StartCol": 13,
+        "EndLine": 19,
+        "EndCol": 31
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "View",
+        "Offset": 1617,
+        "StartLine": 54,
+        "StartCol": 14,
+        "EndLine": 54,
+        "EndCol": 18
+      }
+    ],
+    "PublicStructFields": [],
+    "PrivateStructFields": [],
+    "ErrorChecks": [],
+    "MisnamedErrorChecks": [],
+    "MissingErrorChecks": [],
+    "DocFuncs": [
+      {
+        "File": "src/view.ts",
+        "Name": "getElement",
+        "Offset": 1200,
+        "StartLine": 39,
+        "StartCol": 10,
+        "EndLine": 39,
+        "EndCol": 20
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "showLoginModal",
+        "Offset": 2598,
+        "StartLine": 74,
+        "StartCol": 10,
+        "EndLine": 74,
+        "EndCol": 24
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "onPressLoginButton",
+        "Offset": 2988,
+        "StartLine": 88,
+        "StartCol": 11,
+        "EndLine": 88,
+        "EndCol": 29
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "onPressLogoutButton",
+        "Offset": 3441,
+        "StartLine": 105,
+        "StartCol": 11,
+        "EndLine": 105,
+        "EndCol": 30
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "onLogin",
+        "Offset": 3584,
+        "StartLine": 110,
+        "StartCol": 10,
+        "EndLine": 110,
+        "EndCol": 17
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "clearPostsElement",
+        "Offset": 3877,
+        "StartLine": 118,
+        "StartCol": 11,
+        "EndLine": 118,
+        "EndCol": 28
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "showWorkspaces",
+        "Offset": 4013,
+        "StartLine": 123,
+        "StartCol": 10,
+        "EndLine": 123,
+        "EndCol": 24
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "onClickWorkspace",
+        "Offset": 4521,
+        "StartLine": 137,
+        "StartCol": 11,
+        "EndLine": 137,
+        "EndCol": 27
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "showWorkspace",
+        "Offset": 4813,
+        "StartLine": 147,
+        "StartCol": 10,
+        "EndLine": 147,
+        "EndCol": 23
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "onClickChannel",
+        "Offset": 5649,
+        "StartLine": 173,
+        "StartCol": 11,
+        "EndLine": 173,
+        "EndCol": 25
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "showChannel",
+        "Offset": 5887,
+        "StartLine": 182,
+        "StartCol": 10,
+        "EndLine": 182,
+        "EndCol": 21
+      }
+    ],
+    "DocStructs": [
+      {
+        "File": "src/view.ts",
+        "Name": "LoginEvent",
+        "Offset": 155,
+        "StartLine": 6,
+        "StartCol": 13,
+        "EndLine": 6,
+        "EndCol": 23
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "SelectWorkspaceEvent",
+        "Offset": 423,
+        "StartLine": 14,
+        "StartCol": 13,
+        "EndLine": 14,
+        "EndCol": 33
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "SelectChannelEvent",
+        "Offset": 619,
+        "StartLine": 19,
+        "StartCol": 13,
+        "EndLine": 19,
+        "EndCol": 31
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "PostInfo",
+        "Offset": 1062,
+        "StartLine": 32,
+        "StartCol": 6,
+        "EndLine": 32,
+        "EndCol": 14
+      },
+      {
+        "File": "src/view.ts",
+        "Name": "View",
+        "Offset": 1617,
+        "StartLine": 54,
+        "StartCol": 14,
+        "EndLine": 54,
+        "EndCol": 18
+      }
+    ],
+    "NodocFuncs": [],
+    "NodocStructs": [
+      {
+        "File": "src/view.ts",
+        "Name": "DocumentEventMap",
+        "Offset": 761,
+        "StartLine": 23,
+        "StartCol": 13,
+        "EndLine": 23,
+        "EndCol": 29
+      }
+    ],
+    "ExternalImportUses": [],
+    "ModuleImportUses": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "Assignment-1",
+  "pairsPerStudent": 3,
+  "evalsPerTaPerCriteria": 1,
+  "language": "typescript",
+  "coverageLevel": 0,
+  "criteria": [
+    {
+      "name": "<b>Modularity &amp; Cohesion</b>",
+      "peerPreText": "Which design is more modular and cohesive?",
+      "selfPreText": "Rate the modularity and cohesion of your group's submission.",
+      "postText": "Consider whether each module does one cohesive thing, and whether functionality is spread across multiple modules.",
+      "tas": ["ta1", "ta2"],
+      "taRubric": [
+        { "text": "<b>Module Structure</b>", "isHeader": true, "mutuallyExclusive": true },
+        { "text": "All code in a single module/file", "pts": -3.0, "isHeader": false },
+        { "text": "Code organized into multiple modules", "pts": 0.0, "isHeader": false }
+      ],
+      "weight": 5.0
+    },
+    {
+      "name": "<b>Decoupling</b>",
+      "peerPreText": "Which design is more decoupled?",
+      "selfPreText": "Rate the decoupling of your group's submission.",
+      "postText": "Consider the number of imports between modules and whether interfaces were used to reduce coupling.",
+      "tas": ["ta1", "ta2"],
+      "taRubric": [
+        { "text": "<b>Cross-Module Imports</b>", "isHeader": true, "mutuallyExclusive": true },
+        { "text": "All code in a single module", "pts": -5.0, "isHeader": false },
+        { "text": "HTTP and data handling in same module", "pts": -3.0, "isHeader": false },
+        { "text": "HTTP and data handling fully decoupled", "pts": 0.0, "isHeader": false }
+      ],
+      "weight": 5.0
+    },
+    {
+      "name": "<b>Clarity</b>",
+      "peerPreText": "Which implementation is clearer?",
+      "selfPreText": "Rate the clarity of your group's implementation.",
+      "postText": "Consider whether the code is easy to understand, whether names are clear, and whether JSDoc comments are present.",
+      "postTextTa": " Focus on missing or misleading JSDoc comments.",
+      "tas": ["ta1", "ta2"],
+      "taRubric": [
+        { "text": "<b>Missing Comments</b>", "isHeader": true, "mutuallyExclusive": true },
+        { "text": "0 functions/classes missing JSDoc", "pts": 0.0, "isHeader": false },
+        { "text": "1-2 functions/classes missing JSDoc", "pts": -1.0, "isHeader": false },
+        { "text": "3+ functions/classes missing JSDoc", "pts": -2.0, "isHeader": false }
+      ],
+      "weight": 5.0
+    },
+    {
+      "name": "<b>Robustness</b>",
+      "peerPreText": "Which design has better error handling?",
+      "selfPreText": "Rate the quality of the error handling in your group's submission.",
+      "postText": "Are errors always handled? Are rejected Promises caught? Would any errors crash the application?",
+      "tas": ["ta1", "ta2"],
+      "taRubric": [
+        { "text": "<b>Missing Error Handling</b>", "isHeader": true, "mutuallyExclusive": false },
+        { "text": "More than half of async calls lack catch/error handling", "pts": -5.0, "isHeader": false },
+        { "text": "<b>Incorrect Error Handling</b>", "isHeader": true, "mutuallyExclusive": false },
+        { "text": "At least 1 rejected promise not logged", "pts": -1.0, "isHeader": false }
+      ],
+      "weight": 5.0
+    }
+  ],
+  "freeResponse": [],
+  "selfCriteria": [],
+  "training": []
+}

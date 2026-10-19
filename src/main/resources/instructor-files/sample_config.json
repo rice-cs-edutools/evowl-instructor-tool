@@ -1,0 +1,174 @@
+{
+    "id": "Assignment-1",
+    "pairsPerStudent": 3,
+    "evalsPerTaPerCriteria": 1,
+    "language": "golang",
+    "coverageLevel": 0,
+    "criteria": [
+        {
+          "name": "<b>Modularity &amp; Cohesion</b>",
+          "peerPreText": "Which design is more modular and cohesive?",
+          "selfPreText": "Rate the modularity and cohesion of your group's submission.",
+          "postText": "Consider whether each package does one cohesive thing, and whether functionality is spread across multiple packages.",
+          "tas": ["ta1", "ta2"],
+          "taRubric": [
+            {
+              "text": "<b>Package Structure</b>",
+              "isHeader": true,
+              "mutuallyExclusive": true
+            },
+            { "text": "All code in a single package", "pts": -3.0, "isHeader": false },
+            { "text": "Code organized into multiple packages", "pts": -0.0, "isHeader": false }
+          ],
+          "weight": 5.0
+        },
+        {
+          "name": "<b>Decoupling</b>",
+          "peerPreText": "Which design is more decoupled?",
+          "selfPreText": "Rate the decoupling of your group's submission.",
+          "postText": "Consider the number of imports between packages and whether interfaces were used to reduce coupling.",
+          "tas": ["ta1", "ta2"],
+          "taRubric": [
+            {
+              "text": "<b>Cross-Package Imports</b>",
+              "isHeader": true,
+              "mutuallyExclusive": true
+            },
+            { "text": "All code in a single package", "pts": -5.0, "isHeader": false },
+            { "text": "HTTP and data handling in same package", "pts": -3.0, "isHeader": false },
+            { "text": "HTTP and data handling fully decoupled", "pts": -0.0, "isHeader": false }
+          ],
+          "weight": 5.0
+        },
+        {
+          "name": "<b>Encapsulation &amp; Interfaces</b>",
+          "peerPreText": "Which design has clearer/better interfaces?",
+          "selfPreText": "Rate the use of interfaces in your group's submission.",
+          "postText": "Consider public APIs of each package. Are public function/method arguments structs when they should have been interfaces?",
+          "tas": ["ta1", "ta2"],
+          "taRubric": [
+            {
+              "text": "<b>Interface Arguments</b>",
+              "isHeader": true,
+              "mutuallyExclusive": true
+            },
+            { "text": "0 public functions or methods have struct arguments that should have been interfaces", "pts": -0.0, "isHeader": false },
+            { "text": "1-20% of the public functions or methods have struct arguments that should have been interfaces", "pts": -1.0, "isHeader": false },
+            { "text": "21-40% of the public functions or methods have struct arguments that should have been interfaces", "pts": -2.0, "isHeader": false },
+            { "text": "41-60% of the public functions or methods have struct arguments that should have been interfaces", "pts": -3.0, "isHeader": false },
+            { "text": "61-80% of the public functions or methods have struct arguments that should have been interfaces", "pts": -4.0, "isHeader": false },
+            { "text": "81-100% of the public functions or methods have struct arguments that should have been interfaces", "pts": -5.0, "isHeader": false }
+          ],
+          "weight": 5.0
+        },
+        {
+          "name": "<b>Robustness</b>",
+          "peerPreText": "Which design has better error handling?",
+          "selfPreText": "Rate the quality of the error handling in your group's submission.",
+          "postText": "Are errors always handled? Are all errors logged? Would any errors crash the system?",
+          "tas": ["ta1", "ta2"],
+          "taRubric": [
+            {
+              "text": "<b>Missing Error Checks</b>",
+              "isHeader": true,
+              "mutuallyExclusive": false
+            },
+            { "text": "More than half of fallible calls lack error checks", "pts": -5.0, "isHeader": false },
+            {
+              "text": "<b>Incorrect Error Handling</b>",
+              "isHeader": true,
+              "mutuallyExclusive": false
+            },
+            { "text": "At least 1 error not logged", "pts": -1.0, "isHeader": false }
+          ],
+          "weight": 5.0
+        },
+        {
+          "name": "<b>Clarity</b>",
+          "peerPreText": "Which implementation is clearer?",
+          "selfPreText": "Rate the clarity of your group's implementation.",
+          "postText": "Consider whether the code is easy to understand, whether names are clear, and whether documentation is present.",
+          "tas": ["ta1", "ta2"],
+          "taRubric": [
+            {
+              "text": "<b>Missing Comments</b>",
+              "isHeader": true,
+              "mutuallyExclusive": true
+            },
+            { "text": "0 functions/types missing comments", "pts": -0.0, "isHeader": false },
+            { "text": "1-2 functions/types missing comments", "pts": -1.0, "isHeader": false },
+            { "text": "3+ functions/types missing comments", "pts": -2.0, "isHeader": false }
+          ],
+          "weight": 5.0
+        },
+        {
+          "name": "<b>Really Long Name</b>",
+          "peerPreText": "Which implementation has the really long name?",
+          "selfPreText": "Rate the length of your group's name.",
+          "postText": "Consider whether the name is long, whether it is descriptive, and whether it is catchy.",
+          "tas": ["ta1", "ta2"],
+          "taRubric": [
+            {
+              "text": "<b>Long Names</b>",
+              "isHeader": true,
+              "mutuallyExclusive": true
+            },
+            { "text": "0 names are long", "pts": -0.0, "isHeader": false },
+            { "text": "1-2 names are long", "pts": -1.0, "isHeader": false },
+            { "text": "3+ names are not long", "pts": -2.0, "isHeader": false }
+          ],
+          "weight": 5.0
+        },
+        {
+          "name": "<b>Most involved implementation</b>",
+          "peerPreText": "Which implementation is the most involved?",
+          "selfPreText": "Rate the involvement of your group's implementation.",
+          "postText": "Consider whether the implementation is the most involved, whether it is the most complex, and whether it is the most difficult to understand.",
+          "tas": ["ta1", "ta2"],
+          "taRubric": [
+            {
+              "text": "<b>Most involved implementation</b>",
+              "isHeader": true,
+              "mutuallyExclusive": false
+            },
+            { "text": "0 implementations are not involved", "pts": -0.0, "isHeader": false },
+            { "text": "1-2 implementations are not involved", "pts": -1.0, "isHeader": false },
+            { "text": "3+ implementations are involved", "pts": -2.0, "isHeader": false }
+          ],
+          "weight": 5.0
+        }
+      ],
+    "training": [
+        {
+            "program1": "src/main/resources/instructor-files/test/student_submissions/assignment-group09",
+            "program2": "src/main/resources/instructor-files/test/student_submissions/assignment-group10",
+            "answers": [2, 2, 1, 3, 0, 1],
+            "feedback": [
+                "Implementation 1 is slightly better: Implementation 2 is all in main, whereas Implementation 1 has one package. However, neither implementation is good, as they both do too much in each module.",
+                "Implementation 1 is slightly better since Implementation 2 is all in main and Implementation 1 has one package. However, neither implementation is good, because everything is coupled within a single package.",
+                "Implementation 2 is slightly better as the structs, methods, and functions are mostly private, which is correct given that it is all in one package. In Implementation 1, everything is public, even though very little needs to be accessed external to the package. While Implementation 1 does use a Go interface, it is used to simulate a base class for inheritance, which is not an appropriate use of Go interfaces. So, neither implementation uses Go interfaces well.",
+                "Implementation 1 is much better, as Implementation 2 ignores errors and does not handle them in multiple places:<br>- Assumes path length is either 3 or 4 and does nothing if it is not<br>- Ignores errors on several internal calls to db(s) methods<br>- Calls 'Close' on body stream before determining whether there was an error or not<br>- Etc.<br>Implementation 1 also ignores some errors, but not nearly as many.",
+                "Implementation 2 is much better, as Implementation 1 has multiple abstractions that appear to do the same thing and an interface with 'Or' in the name that is not clear what it does. Implementation 2 also has clear comments on each function/method explaining what it does.",
+                "Implementation 1 is much cooler, as it has a name that is a play on words and is very catchy. Implementation 2 is not cool, as it has a name that is not very catchy and is not a play on words."
+            ]
+        }
+    ],
+    "freeResponse": [
+        {
+            "text": "Describe the single best design choice of each submission.",
+            "maxChar": 200,
+            "weight": 0.0
+        },
+        {
+            "text": "Describe the single most significant way in which the design of each submission could be improved.",
+            "maxChar": 200,
+            "weight": 0.0
+        }
+    ],
+    "selfCriteria": [
+      {
+        "text": "How would you rate the overall quality of your group's submission?",
+        "weight": 0.0
+      }
+    ]
+}

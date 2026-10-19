@@ -1,0 +1,68 @@
+{
+  "id": "Assignment-1",
+  "pairsPerStudent": 3,
+  "evalsPerTaPerCriteria": 1,
+  "language": "golang",
+  "coverageLevel": 0,
+  "criteria": [
+    {
+      "name": "<b>Modularity &amp; Cohesion</b>",
+      "peerPreText": "Which design is more modular and cohesive?",
+      "selfPreText": "Rate the modularity and cohesion of your group's submission.",
+      "postText": "Consider whether each package does one cohesive thing, and whether functionality is spread across multiple packages.",
+      "tas": ["ta1", "ta2"],
+      "taRubric": [
+        { "text": "<b>Package Structure</b>", "isHeader": true, "mutuallyExclusive": true },
+        { "text": "All code in a single package", "pts": -3.0, "isHeader": false },
+        { "text": "Code organized into multiple packages", "pts": 0.0, "isHeader": false }
+      ],
+      "weight": 5.0
+    },
+    {
+      "name": "<b>Decoupling</b>",
+      "peerPreText": "Which design is more decoupled?",
+      "selfPreText": "Rate the decoupling of your group's submission.",
+      "postText": "Consider the number of imports between packages and whether interfaces were used to reduce coupling.",
+      "tas": ["ta1", "ta2"],
+      "taRubric": [
+        { "text": "<b>Cross-Package Imports</b>", "isHeader": true, "mutuallyExclusive": true },
+        { "text": "All code in a single package", "pts": -5.0, "isHeader": false },
+        { "text": "HTTP and data handling in same package", "pts": -3.0, "isHeader": false },
+        { "text": "HTTP and data handling fully decoupled", "pts": 0.0, "isHeader": false }
+      ],
+      "weight": 5.0
+    },
+    {
+      "name": "<b>Clarity</b>",
+      "peerPreText": "Which implementation is clearer?",
+      "selfPreText": "Rate the clarity of your group's implementation.",
+      "postText": "Consider whether the code is easy to understand, whether names are clear, and whether documentation is present.",
+      "postTextTa": " Focus on missing or misleading doc comments.",
+      "tas": ["ta1", "ta2"],
+      "taRubric": [
+        { "text": "<b>Missing Comments</b>", "isHeader": true, "mutuallyExclusive": true },
+        { "text": "0 functions/types missing comments", "pts": 0.0, "isHeader": false },
+        { "text": "1-2 functions/types missing comments", "pts": -1.0, "isHeader": false },
+        { "text": "3+ functions/types missing comments", "pts": -2.0, "isHeader": false }
+      ],
+      "weight": 5.0
+    },
+    {
+      "name": "<b>Robustness</b>",
+      "peerPreText": "Which design has better error handling?",
+      "selfPreText": "Rate the quality of the error handling in your group's submission.",
+      "postText": "Are errors always handled? Are all errors logged? Would any errors crash the system?",
+      "tas": ["ta1", "ta2"],
+      "taRubric": [
+        { "text": "<b>Missing Error Checks</b>", "isHeader": true, "mutuallyExclusive": false },
+        { "text": "More than half of fallible calls lack error checks", "pts": -5.0, "isHeader": false },
+        { "text": "<b>Incorrect Error Handling</b>", "isHeader": true, "mutuallyExclusive": false },
+        { "text": "At least 1 error not logged", "pts": -1.0, "isHeader": false }
+      ],
+      "weight": 5.0
+    }
+  ],
+  "freeResponse": [],
+  "selfCriteria": [],
+  "training": []
+}
